@@ -30,9 +30,9 @@ namespace {
 constexpr int SIDE_PADDING = 12;
 constexpr unsigned long LONG_PRESS_MS = 1000;
 
-constexpr int RECENT_TAB = 0;
-constexpr int TITLE_TAB = 1;
-constexpr int AUTHOR_TAB = 2;
+constexpr int TITLE_TAB = 0;
+constexpr int AUTHOR_TAB = 1;
+constexpr int RECENT_TAB = 2;
 constexpr int TAB_SLOTS = AUTHOR_TAB + 1;
 
 constexpr bool isDescending(const library::SortOrder order) {
